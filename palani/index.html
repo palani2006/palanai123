@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Tea Shop</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f3e9;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .item h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #6f4e37;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Tea Shop</h1>
+    <p>Delicious Coffee & Tea Served Fresh</p>
+  </header>
+
+  <main>
+    <h2>☕ Coffee Menu</h2>
+    <div class="menu">
+      <div class="item">
+        <h3>1. Espresso</h3>
+        <p>Strong and rich Italian-style coffee shot.</p>
+      </div>
+      <div class="item">
+        <h3>2. Cappuccino</h3>
+        <p>Espresso with steamed milk and milk foam.</p>
+      </div>
+      <div class="item">
+        <h3>3. Latte</h3>
+        <p>Smooth espresso with lots of steamed milk.</p>
+      </div>
+      <div class="item">
+        <h3>4. Americano</h3>
+        <p>Espresso diluted with hot water.</p>
+      </div>
+      <div class="item">
+        <h3>5. Mocha</h3>
+        <p>Espresso mixed with chocolate and milk.</p>
+      </div>
+      <div class="item">
+        <h3>6. Cold Coffee</h3>
+        <p>Chilled coffee served with ice and milk.</p>
+      </div>
+      <div class="item">
+        <h3>7. Filter Coffee</h3>
+        <p>Traditional South Indian filter coffee.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 My Tea Shop | Made with ❤
+  </footer>
+
+</body>
+</html>
